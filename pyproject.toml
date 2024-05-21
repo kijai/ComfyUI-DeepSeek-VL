@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-deepseek-vl"
+description = "ComfyUI nodes to use DeepSeek-VL"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["attrdict", "huggingface_hub", "transformers>=4.38.2", "timm>=0.9.16", "sentencepiece"]
+
+[project.urls]
+Repository = "https://github.com/kijai/ComfyUI-DeepSeek-VL"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-DeepSeek-VL"
+Icon = ""
